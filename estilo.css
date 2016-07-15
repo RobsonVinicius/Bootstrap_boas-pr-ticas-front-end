@@ -92,3 +92,8 @@ footer {
 footer address:last-child {
     margin-bottom: 0px;
 }
+
+.fill {
+	width:100%;
+	height:100%;
+	}
