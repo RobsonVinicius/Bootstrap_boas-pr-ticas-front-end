@@ -1,0 +1,99 @@
+#acordeao {
+    padding-top: 20px;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    background-image: url(img/castelo.jpg); /* Imagens decorativas (quando não queremos que sejam indexadas) colocamos no CSS */
+    background-size: cover;
+    background-position: top center;
+    height: 100%;    
+    position: relative;
+}
+
+header h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.topCasaFina-banner {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    position: absolute; /* para dizer que este objeto estará alinhado a outro elemento, não esquecer de colocar no pai ou seja o header o position: relative */
+    top: 50%;  /* para alinhar ao meio em relação ao eixo Y, porém ele alinha a borda ao meio, então temos que colocar um transform para corrigir isso */
+    left: 50%; /* para alinhar ao meio em relação ao eixo X */
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+} 
+
+@media(min-width: 768px) {
+    #acordeao {
+        padding-top: 0px;
+        }
+    #sobre-nos img {
+    padding-bottom: 10px;
+     }
+    }
+
+@media(min-width: 992px) {
+    .topCasaFina-banner {
+        left: 0px;
+        transform: translate(0px, -80%);
+        width: 50%;
+        }
+    .topCasaFina-bannerWrapper {
+        position: relative; 
+        height: 100%;}
+}
+
+#sobre-nos img {
+    padding-bottom: 30px;
+    
+}
+
+
+.titulo-depoimentos {
+    background-color: #0275D8;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    font-size: 23px;
+      
+}
+
+.contato-select, .grupo-radio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff; 
+    padding: 1em;
+    margin-top: 10px;
+    
+}
+
+footer address:last-child {
+    margin-bottom: 0px;
+}
+
+.fill {
+	width:100%;
+	height:100%;
+	}
