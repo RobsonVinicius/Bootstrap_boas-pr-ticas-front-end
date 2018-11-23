@@ -1,6 +1,5 @@
 #acordeao {
-    padding-top: 20px;
-    
+  padding-top: 20px;    
 }
 
 html, body {
@@ -19,6 +18,11 @@ header h1 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.navbar-nav {
+  float: right;
+}
+
 .topCasaFina-banner {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
