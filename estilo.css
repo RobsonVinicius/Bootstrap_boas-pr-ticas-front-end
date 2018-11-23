@@ -23,6 +23,11 @@ header h1 {
   float: right;
 }
 
+#sobre-nos {
+  margin-top: 30px;
+  margin-bottom: 20px
+}
+
 .topCasaFina-banner {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
