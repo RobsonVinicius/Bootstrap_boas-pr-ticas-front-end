@@ -73,6 +73,10 @@ header h1 {
       
 }
 
+.contato {
+  margin: 40px 0px 30px 0px;
+}
+
 .contato-select, .grupo-radio {
     width: 50%;
     display: inline-block;
